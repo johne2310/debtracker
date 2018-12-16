@@ -17,6 +17,7 @@ export class LandingPage implements OnInit {
     private router: Router
   ) {}
 
+  // use ngOnInit in Ionic 4
   ngOnInit() {}
 
   async goToBillList(): Promise<void> {
