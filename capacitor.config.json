@@ -1,0 +1,6 @@
+{
+  "appId": "com.day41.debtTracker",
+  "appName": "DebtTracker",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}

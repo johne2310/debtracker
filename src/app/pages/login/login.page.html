@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="auth-page">
+  <img src="assets/img/logo.jpg" alt="" class="auth-img">
+  <form [formGroup]="loginForm">
+    <ion-item>
+      <ion-label stacked>Email</ion-label>
+      <ion-input formControlName="email" type="email" placeholder="Enter your email address"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label></ion-label>
+    </ion-item>
+
+  </form>
+
+</ion-content>
